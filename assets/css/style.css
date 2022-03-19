@@ -28,6 +28,7 @@ header ul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     border: 3px solid red;
+    border-width: 70%;
     position: relative;
     top: 15vh;
 }
@@ -35,6 +36,10 @@ header ul {
     font-size: 30px;
     text-align: center;
     margin: 4px;
+}
+.abtme p {
+    width: 60%;
+    text-align: center;
 }
 .pix {
     display: flex;

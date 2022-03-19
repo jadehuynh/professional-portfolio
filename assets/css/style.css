@@ -1,8 +1,11 @@
+/*attempt in adding background color*/
+body {
+    background-color: rgb(1, 104, 64);
+}
 header {
     display: flex;
     justify-content: space-between;
-    position: fixed;
-    color: rgb(255, 255, 255);
+    color: rgb(248, 203, 144);
     background-color: rgb(150, 0, 82);
     width: 100%;
     height: 10vh;
@@ -29,20 +32,23 @@ header ul {
 .flexbox-container {
     display: flex;
     justify-content: space-around;
+    width: 75%;
+    min-height: 45%;
+    background-color: rgb(248, 203, 144);
+    margin-top: 15vh;
 }
 /*updating styling sheet to the new flebox-item class I am trying*/
 #flexbox-item1 {
+    display: flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 3px solid red;
 }
 #flexbox-item1 h2{
     font-size: 30px;
     text-align: center;
     margin: 4px;
-    border-right: 5px solid red;
 }
 #flexbox-item1 p {
-    width: 60%;
     text-align: center;
+    
 }
 /*focusing on fomatting one flexbox to make the others correct as well*/ 

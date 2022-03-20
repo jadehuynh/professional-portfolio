@@ -65,6 +65,11 @@ header ul {
 #flexbox-card1 p {
     text-align: center;
 }
+/*added personal photo*/
+.mypicture {
+    width: 40%;
+    height: 40%;
+}
 /*focusing on fomatting one flexbox to make the others correct as well*/ 
 /*adding styling for newly added flexboxes*/
 #flexbox-card2 {

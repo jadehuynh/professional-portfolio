@@ -2,15 +2,24 @@
 body {
     background-color: rgb(1, 104, 64);
 }
-header {
+/*header {
     display: flex;
     justify-content: space-between;
     color: rgb(248, 203, 144);
     background-color: rgb(95, 117, 53);
     width: 100%;
     height: 10vh;
-}
-h1{
+    background-image: center;
+}*/
+/*playing around with banner imade insertion*/
+#bannerimage {
+    display: block;
+    width: 100%;
+    background-image: url(./assets/images/shadowbox.jpg);
+    height: 10vh;
+    background-position: center;
+  }
+h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     margin-top: 1.5vh;
@@ -38,7 +47,7 @@ header ul {
     align-items: center;
 }
 /*updating styling sheet to the new flebox-item class I am trying*/
-#flexbox-item1 {
+#flexbox-card1 {
     display: flex;
     margin: 8px;
     width: 40%;
@@ -48,7 +57,7 @@ header ul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*added border-right to each div section separating the title from text*/
-#flexbox-item1 h2{
+#flexbox-card1 h2{
     font-size: 30px;
     text-align: center;
     margin: 9px;
@@ -56,12 +65,12 @@ header ul {
     border-right: 3px solid rgb(1, 104, 64);
     padding-right: 6px;
 }
-#flexbox-item1 p {
+#flexbox-card1 p {
     text-align: center;
 }
 /*focusing on fomatting one flexbox to make the others correct as well*/ 
 /*adding styling for newly added flexboxes*/
-#flexbox-item2 {
+#flexbox-card2 {
     display: flex;
     margin: 8px;
     width: 40%;
@@ -70,7 +79,7 @@ header ul {
     background-color: rgb(248, 203, 144);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#flexbox-item2 h2{
+#flexbox-card2 h2{
     font-size: 30px;
     text-align: center;
     margin: 9px;
@@ -78,12 +87,12 @@ header ul {
     border-right: 3px solid rgb(1, 104, 64);
     padding-right: 6px;
 }
-#flexbox-item2 p {
+#flexbox-card2 p {
     text-align: center;
 }
 /*playing with the positioning and alignment of flexboxes*/
 
-#flexbox-item3 {
+#flexbox-card3 {
     display: inline-block;
     position: static;
     margin: 8px;
@@ -94,13 +103,13 @@ header ul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*changed color for the h2 tags of each div*/
-#flexbox-item3 h2{
+#flexbox-card3 h2{
     font-size: 30px;
     text-align: center;
     margin: 4px;
     color: rgb(1, 104, 64);
     border-bottom: 3px solid rgb(1, 104, 64);
 }
-#flexbox-item3 p {
+#flexbox-card3 p {
     text-align: center;
 }

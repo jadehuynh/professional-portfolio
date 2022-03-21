@@ -45,17 +45,45 @@ button:hover {
     opacity: 60%;
 }
 /*added flexbox-container to help style and give better structure to my content*/
-.flexbox-container {
+/*removed flexbox-container to better position welcome image*/
+/*.flexbox-container {
     display: inline;
     justify-content: space-evenly;
     position: relative;
     align-items: stretch;
-}
+}*/
 /*updating styling sheet to the new flebox-item class I am trying*/
 /*updating background opacity and colors for sections*/
+#welcome-container {
+    display: block;
+    justify-content: center;
+    position: relative;
+}
+/*styling greeting text*/
+.greeting {
+    position: absolute;
+    color:  aliceblue;
+    font-weight: 600;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: reverse;
+}
+/*positioning the welcome greeting and image*/
+#welcome-container img {
+    max-width: 85%;
+    border: 18px solid aliceblue;
+    opacity: 80%;
+    margin: 10vh auto 10vh;
+}
+/*modifying welcome image*/
 #flexbox-card1 {
     display: flex;
-    margin: 8px;
+    margin-bottom: 10vh;
     width: 65%;
     min-height: 45%;
     border: 3px solid black;
@@ -75,6 +103,7 @@ button:hover {
     padding-left: 3vh;
 }
 #flexbox-card1 p {
+    padding: 8px;
     text-align: left;
     text-indent: 13%;
     line-height: 1.3;
@@ -93,7 +122,7 @@ button:hover {
 /*adding styling for newly added flexboxes*/
 #flexbox-card2 {
     position: relative;
-    margin: 8px;
+    margin-bottom: 10vh;
     width: 65%;
     min-height: 45%;
     border: 3px solid black;
@@ -140,15 +169,15 @@ button:hover {
 .code-refactor {
     width: 70%;
     height: 70%;
-    margin-left: 2rem;
-    align-content: space-around;
+    margin: 5rem auto 5rem;
+    align-content: center
 }
 /*formatting the style specs for projects section*/
 .artwork {
     width: 40%;
     height: 40%;
-    margin-left: 2rem;
-    align-content: space-around;
+    margin: 5rem auto 5rem;
+    align-content: center;
 }
 /*adding effects to images linking url*/
 #projectimage:hover {
@@ -161,7 +190,7 @@ button:hover {
 #flexbox-card3 {
     display: inline-block;
     position: static;
-    margin: 8px;
+    margin-bottom: 10vh;
     width: 65%;
     min-height: 35%;
     border: 3px solid black;

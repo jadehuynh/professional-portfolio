@@ -33,12 +33,16 @@ header nav {
 }
 /*adjusted typography of navbar and text in the body*/
 /*modifying colors and text*/
-header ul {
+header button {
+    display: inline-block;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
     justify-content: space-around;
     background-color: aliceblue;
+    color: black;
+}
+button:hover {
+    opacity: 60%;
 }
 /*added flexbox-container to help style and give better structure to my content*/
 .flexbox-container {
@@ -128,14 +132,21 @@ header ul {
     justify-content: center;
 }
 /*styling images and sizing for section*/
-.projectimage {
+.code-refactor {
+    width: 70%;
+    height: 70%;
+    margin-left: 2rem;
+    align-content: space-around;
+}
+/*formatting the style specs for projects section*/
+.artwork {
     width: 40%;
     height: 40%;
     margin-left: 2rem;
     align-content: space-around;
 }
 /*adding effects to images linking url*/
-.projectimage:hover {
+#projectimage:hover {
     opacity: 50%;
 }
 #contactme {
@@ -167,7 +178,7 @@ header ul {
     padding: 3vh 1vh;
 }
 /*adding media query code*/
-@media screen and (max-width: 992px) {
+/*@media screen and (max-width: 992px) {
 
 }
   
@@ -176,7 +187,7 @@ header ul {
 
 }
   
-  /* Small smartphones - image placeholders change color */
+  
 @media screen and (max-width: 576px) {
     
-}
+}*/

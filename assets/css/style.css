@@ -54,7 +54,7 @@ header ul {
     margin: 8px;
     width: 65%;
     min-height: 45%;
-    border: 3px solid rgb(110, 136, 110);
+    border: 3px solid black;
     background-color: aliceblue;
     opacity: 90%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -64,9 +64,11 @@ header ul {
     font-size: 30px;
     text-align: center;
     margin: 9px;
-    color: rgb(1, 104, 64);
-    border-right: 3px solid rgb(1, 104, 64);
-    padding-right: 6px;
+    color: black;
+    border-right: black solid 3px;
+    padding-right: 3vh;
+    padding-top: 12vh;
+    padding-left: 3vh;
 }
 #flexbox-card1 p {
     text-align: left;
@@ -85,7 +87,7 @@ header ul {
     margin: 8px;
     width: 65%;
     min-height: 45%;
-    border: 3px solid rgb(110, 136, 110);
+    border: 3px solid black;
     background-color: aliceblue;
     opacity: 90%;
 }
@@ -93,10 +95,10 @@ header ul {
     font-size: 30px;
     text-align: center;
     margin: 9px;
-    color: rgb(1, 104, 64);
+    color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-right: 6px;
-    border-bottom: 3px solid rgb(1, 104, 64);
+    border-bottom: 3px solid black;
 }
 /*styling and adding text to images in work section*/
 /*.img-container {
@@ -146,7 +148,7 @@ header ul {
     margin: 8px;
     width: 65%;
     min-height: 35%;
-    border: 3px solid rgb(110, 136, 110);
+    border: 3px solid black;
     background-color: aliceblue;
     opacity: 90%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -156,11 +158,25 @@ header ul {
     font-size: 30px;
     text-align: center;
     margin: 4px;
-    color: rgb(1, 104, 64);
-    border-bottom: 3px solid rgb(1, 104, 64);
+    color: black;
+    border-bottom: 3px solid black;
 }/*adding typography to text*/
 #flexbox-card3 p {
     text-align: center;
     word-spacing: 20%;
     padding: 3vh 1vh;
+}
+/*adding media query code*/
+@media screen and (max-width: 992px) {
+
+}
+  
+  
+@media screen and (max-width: 768px){
+
+}
+  
+  /* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+    
 }

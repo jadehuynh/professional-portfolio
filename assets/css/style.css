@@ -84,6 +84,11 @@ button:hover {
     width: 30%;
     margin: 5px;
 }
+.cranes {
+    display: flex;
+    border: aliceblue;
+    margin: 0 10vh;
+}
 /*focusing on fomatting one flexbox to make the others correct as well*/ 
 /*adding styling for newly added flexboxes*/
 #flexbox-card2 {

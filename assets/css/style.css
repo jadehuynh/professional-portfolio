@@ -1,6 +1,7 @@
 /*attempt in adding background color*/
+/*replaced background color with an image*/
 body {
-    background-color: rgb(1, 104, 64);
+    background-image: url(../images/lights.jpg);
 }
 header {
     display: flex;
@@ -47,13 +48,15 @@ header ul {
     align-items: stretch;
 }
 /*updating styling sheet to the new flebox-item class I am trying*/
+/*updating background opacity and colors for sections*/
 #flexbox-card1 {
     display: flex;
     margin: 8px;
-    width: 80%;
+    width: 65%;
     min-height: 45%;
     border: 3px solid rgb(110, 136, 110);
-    background-color: rgb(248, 203, 144);
+    background-color: aliceblue;
+    opacity: 90%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*added border-right to each div section separating the title from text*/
@@ -72,27 +75,44 @@ header ul {
 }
 /*added personal photo*/
 .mypicture {
-    width: 40%;
+    width: 30%;
     margin: 5px;
 }
 /*focusing on fomatting one flexbox to make the others correct as well*/ 
 /*adding styling for newly added flexboxes*/
 #flexbox-card2 {
+    position: relative;
     margin: 8px;
-    width: 80%;
+    width: 65%;
     min-height: 45%;
     border: 3px solid rgb(110, 136, 110);
-    background-color: rgb(248, 203, 144);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    opacity: 90%;
 }
 #flexbox-card2 h2{
     font-size: 30px;
     text-align: center;
     margin: 9px;
     color: rgb(1, 104, 64);
-    border-right: 3px solid rgb(1, 104, 64);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-right: 6px;
+    border-bottom: 3px solid rgb(1, 104, 64);
 }
+/*styling and adding text to images in work section*/
+/*.img-container {
+    position: relative;
+}*/
+/*removing the text block*/
+./*text-block1 {
+    position: absolute;
+    background-color: black;
+    color: white;
+}
+.text-block2 {
+    position: absolute;
+    background-color: black;
+    color: white;
+}*/
 #flexbox-card2 p {
     text-align: center;
 }
@@ -109,7 +129,8 @@ header ul {
 .projectimage {
     width: 40%;
     height: 40%;
-    margin-left: rem;
+    margin-left: 2rem;
+    align-content: space-around;
 }
 /*adding effects to images linking url*/
 .projectimage:hover {
@@ -123,10 +144,11 @@ header ul {
     display: inline-block;
     position: static;
     margin: 8px;
-    width: 80%;
+    width: 65%;
     min-height: 35%;
     border: 3px solid rgb(110, 136, 110);
-    background-color: rgb(248, 203, 144);
+    background-color: aliceblue;
+    opacity: 90%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*changed color for the h2 tags of each div*/

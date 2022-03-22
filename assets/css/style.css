@@ -54,6 +54,9 @@ button:hover {
 }*/
 /*updating styling sheet to the new flebox-item class I am trying*/
 /*updating background opacity and colors for sections*/
+.sect-column {
+    display: inline-flexbox;
+}
 #welcome-container {
     display: block;
     justify-content: center;
@@ -85,7 +88,7 @@ button:hover {
     display: flex;
     margin-bottom: 10vh;
     width: 65%;
-    min-height: 45%;
+    max-height: 45%;
     border: 3px solid black;
     background-color: aliceblue;
     opacity: 90%;
@@ -93,6 +96,7 @@ button:hover {
 }
 /*added border-right to each div section separating the title from text*/
 #flexbox-card1 h2{
+    display: flex;
     font-size: 30px;
     text-align: center;
     margin: 9px;
@@ -103,6 +107,7 @@ button:hover {
     padding-left: 3vh;
 }
 #flexbox-card1 p {
+    display: flex;
     padding: 8px;
     text-align: left;
     text-indent: 13%;
@@ -110,7 +115,7 @@ button:hover {
 }
 /*added personal photo*/
 .mypicture {
-    width: 30%;
+    height: 300px;
     margin: 5px;
 }
 .cranes {
@@ -169,20 +174,28 @@ button:hover {
 .code-refactor {
     width: 70%;
     height: 70%;
-    margin: 5rem auto 5rem;
-    align-content: center
+    margin: auto;
 }
 /*formatting the style specs for projects section*/
 .artwork {
     width: 40%;
     height: 40%;
-    margin: 5rem auto 5rem;
-    align-content: center;
+    margin: space-evenly;
+}
+.project1 {
+    width: 40%;
+    height: 40%;
+    margin: space-evenly;
 }
 /*adding effects to images linking url*/
+/*detailed hover effects*/
 #projectimage:hover {
-    opacity: 50%;
-}
+    padding: 50px;
+    transition: transform .2s;
+    width: 600px;
+    align-items: center;
+      }
+
 #contactme {
     display: flex;
     justify-content: center;
@@ -212,16 +225,77 @@ button:hover {
     padding: 3vh 1vh;
 }
 /*adding media query code*/
-/*@media screen and (max-width: 992px) {
+/*tuning the responsive design*/
+@media screen and (max-width: 992px) {
+    button a {
+        float: none;
+        width: 100%;
+    }
+    h1 {
+        float: none;
+        display: flex;
+    }
+    .greeting {
+        float: none;
+        width: 100%;
+    }
+    .sect-column {
+          width: 50%;
+          height: 50%;
+    }
+    #flexbox-card1 {
+        float: left;
+    }
 
 }
   
   
 @media screen and (max-width: 768px){
-
+    button a {
+        float: none;
+        width: 100%;
+    }
+    h1 {
+        float: none;
+        width: 100%;
+    }
+    .greeting {
+        float: none;
+        width: 100%;
+    }
+    .sect-column {
+        width: 50%;
+        height: 50%;
+    }
+    #flexbox-card1 {
+        float: left;
+    }
 }
+
   
   
 @media screen and (max-width: 576px) {
-    
-}*/
+    button a {
+        float: none;
+        width: 100%;
+    }
+    h1 {
+        float: none;
+        width: 100%;
+    }
+    .greeting {
+        float: none;
+        width: 100%;
+    }
+    .sect-column {
+        width: 50%;
+        height: 50%;
+    }
+    #flexbox-card1 {
+        float: left;
+        
+    }
+    .mypicture {
+        float: left;
+    }
+}

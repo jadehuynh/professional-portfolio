@@ -170,8 +170,8 @@ button:hover {
 }
 /*styling images and sizing for section*/
 .code-refactor {
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
     margin: auto;
 }
 /*formatting the style specs for projects section*/
@@ -190,7 +190,7 @@ button:hover {
 #projectimage:hover {
     padding: 50px;
     transition: transform .2s;
-    width: 600px;
+    width: 750px;
     align-items: center;
       }
 

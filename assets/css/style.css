@@ -176,13 +176,13 @@ button:hover {
 }
 /*formatting the style specs for projects section*/
 .artwork {
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: 35%;
     margin: space-evenly;
 }
 .project1 {
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: 35%;
     margin: space-evenly;
 }
 /*adding effects to images linking url*/

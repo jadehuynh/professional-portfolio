@@ -85,7 +85,8 @@ button:hover {
 }
 /*modifying welcome image*/
 #flexbox-card1 {
-    display: flex;
+    display: relative;
+    justify-content: center;
     margin-bottom: 10vh;
     width: 65%;
     max-height: 45%;
@@ -96,18 +97,16 @@ button:hover {
 }
 /*added border-right to each div section separating the title from text*/
 #flexbox-card1 h2{
-    display: flex;
+    display: relative;
     font-size: 30px;
     text-align: center;
     margin: 9px;
     color: black;
-    border-right: black solid 3px;
-    padding-right: 3vh;
-    padding-top: 12vh;
-    padding-left: 3vh;
+    border-bottom: black solid 3px;
+    padding: 3vh;
 }
 #flexbox-card1 p {
-    display: flex;
+    display: relative;
     padding: 8px;
     text-align: left;
     text-indent: 13%;
@@ -115,8 +114,7 @@ button:hover {
 }
 /*added personal photo*/
 .mypicture {
-    height: 300px;
-    margin: 5px;
+    width: 300px;
 }
 .cranes {
     display: flex;

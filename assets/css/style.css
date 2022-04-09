@@ -1,0 +1,52 @@
+.navbar{
+    background-color: #f08080;
+}
+.navbar-text {
+    font-family: 'Poiret One';
+    font-weight: bolder;
+    color:black;
+    position: center;
+}
+body {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5ad85f9655b02cda819ab635/1606248906212-ODKOSNT4Y5ZS10YUTYUV/IMG_1874.JPG?format=2500w");
+    background-size: cover;   
+}
+.card1 {
+    border:#f08080 dotted 17px;
+}
+h1 {
+    font-weight: bolder;
+    font-size: 15rem;
+    text-align: center;
+}
+.card2{
+    margin-top: 35vh;
+    margin-bottom: 35vh;
+    border:#f08080 dotted 17px;
+    font-family: 'Poiret One';
+    font-weight: bolder;
+    color: #f08080;
+}
+.card-img-top1 {
+    display: flex;
+    max-width: 15rem;
+    border:#f08080 dotted 17px;
+    display: flex;
+    justify-content: center;
+}
+.card-text1 {
+    display: flex;
+    justify-content: right;
+    font-family: 'Forum';
+    color:black;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #f08080;
+}
+h3 {
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Forum';
+    font-weight: bold;
+    color: #f08080;
+}

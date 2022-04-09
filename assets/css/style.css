@@ -1,8 +1,12 @@
 .navbar{
     background-color: #f08080;
+    height: 5rem;
+    align-items: center;
+    padding-left: 37%;
+    padding-right: 37%;
 }
 .navbar-text {
-    font-family: 'Poiret One';
+    font-family: 'Roboto';
     font-weight: bolder;
     color:black;
     position: center;
@@ -13,13 +17,33 @@ body {
 }
 .card1 {
     border:#f08080 dotted 17px;
+    padding: 2rem;
 }
 h1 {
+    padding: 2rem;
     font-weight: bolder;
     font-size: 15rem;
     text-align: center;
 }
-.card2{
+.card2 {
+    margin-top: 35vh;
+    margin-bottom: 35vh;
+    border:#f08080 dotted 17px;
+    font-family: 'Poiret One';
+    font-weight: bolder;
+    color: #f08080;
+}
+.card3 {
+    margin-top: 35vh;
+    margin-bottom: 35vh;
+    border:#f08080 dotted 17px;
+    font-family: 'Poiret One';
+    font-weight: bolder;
+    color: #f08080;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.card4 {
     margin-top: 35vh;
     margin-bottom: 35vh;
     border:#f08080 dotted 17px;
@@ -28,25 +52,49 @@ h1 {
     color: #f08080;
 }
 .card-img-top1 {
-    display: flex;
+    /* display: inline-flex;
+    justify-content: center;
+    align-items: space-evenly; */
     max-width: 15rem;
     border:#f08080 dotted 17px;
-    display: flex;
+    margin: 4rem;
+}
+.card-img-top2 {
+    /* display: inline-flex;
     justify-content: center;
+    align-items: space-evenly; */
+    max-width: 15rem;
+    border:#f08080 dotted 17px;
+    margin: 4rem;
 }
 .card-text1 {
-    display: flex;
-    justify-content: right;
     font-family: 'Forum';
     color:black;
     text-align: center;
     line-height: 1.5rem;
     color: #f08080;
+    font-size: 15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 h3 {
+    text-decoration: underline;
     font-size: 4rem;
     text-align: center;
-    font-family: 'Forum';
+    font-family: 'Poiret One';
     font-weight: bold;
     color: #f08080;
+}
+#project {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 20rem;
+    margin:1.5rem;
+}
+.card-body4 {
+    padding-left: 26%;
+    padding-right: 26%;
+    padding-bottom: 3rem;
+
 }

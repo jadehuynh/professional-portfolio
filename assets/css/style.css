@@ -1,14 +1,14 @@
 body {
-    background-image: url("./assets/images/lights.jpg");
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5ad85f9655b02cda819ab635/1593808709998-52YARZT6JNT30XGAS0SV/E32F0351-8180-439F-8842-3FABBAB81C65.jpeg?format=2500w");
     background-size: cover;  
     min-height: 100vh; 
 }
-a {
-    font-family: 'Raleway';
-    font-weight: bolder;
+.nav-container {
+    background-color: #f08080;
 }
-.card-body {
-
+li {
+    font-weight: bolder;
+    font-family: 'Righteous';
 }
 .card {
     border:#f08080 dotted 17px;

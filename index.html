@@ -10,74 +10,84 @@
     <!--added google fants link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Forum:ital,wght@1,100&family=Poiret+One&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Raleway:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <title>Jade's Professional Portfolio</title>
 </head>
 <body>
-    <header>
-        <div class="container-l">
-         <nav class="navbar fixed-top navbar-expand-lg">
-            <div class="container-fluid1">
-                <span class="navbar-text">
-                     <a class="navbar-brand" href="#">Home</a>
-                     <a class="navbar-brand" href="#card-header1">About&nbsp;Me</a>
-                     <a class="navbar-brand" href="#">Projects</a>
-                     <a class="navbar-brand" href="#">Contact</a>
-                </span>
-            </div>
-          </nav>
-        </div>
-    </header>
-
-    <div class="mx-auto">
-        <div class="card2 col-lg-12 bg-dark rounded  mx-auto" style="width: 95rem; height: 25rem;">
-            <h1 class="card-title mx-auto">WELCOME</h1>
-        </div>
-    </div>
-
-    <div class="col-lg-12 mx-auto">
-        <div class="container-lg gx-5 mx-auto">
-            <div class="card1 bg-dark rounded  m-5 mx-auto" style="width: 65rem;">
-                <div class="m-4 mx-auto img-fluid" id="card-header1"><h3>About Me</h3></div>
-                    <img src="./assets/images/jade.jpg" class="card-img-top1 rounded mx-auto img-fluid float-start">
-                        <a href="https://drive.google.com/file/d/1o6JqdjD52RRUf8mHT3k9HBC9ZgUHDDeW/view?usp=sharing"><img src="./assets/images/resume.png" class="card-img-top2 mx-auto rounded float-end"></a>
-                        <div class="card-body1 mx-auto">
-                            <p class="card-text1 mx-auto" >Hello and welcome to my portfolio! My name is Jade Huynh, and I am currently a student studying Full Stack Development. Originally from small town Minnesota, I finished high school and attended the University of Minnesota for Interior Design. Shortly after classes began, I recognized it was not the right field for me. I then enrolled in Le Cordon Bleu to become a pastry chef, propelling my passion for desserts! Fortunately, I was able to cook in wonderful kitchens with talented chefs all over the Twin Cities for over a decade. I also am an Origami Artist, professionally creating fine art for seven years as well. Now I am interested in redirecting my path to encounter to challenges and gain more knowledge in the tech field. I am eager to learn, and looking forward to what the future brings with the determination I have to succeed in new territory.</p>
-                        </div>
-                </div>
-            </div>
+    <ul class="nav nav-container mx-auto">
+        <li class="nav-item mx-auto">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item mx-auto">
+          <a class="nav-link" href="#">About Me</a>
+        </li>
+        <li class="nav-item mx-auto">
+          <a class="nav-link" href="#">Project</a>
+        </li>
+        <li class="nav-item mx-auto">
+          <a class="nav-link">Contact</a>
+        </li>
+    </ul>
+    <div class="hero mb-3"></div>
+    <div class="card  d-grid gap-5 text-center mx-auto mb-3 bg-dark" style="width: 65rem;">
+        <img src="./assets/images/jade.jpg" class="card-img-top rounded" style="width: 15rem;">
+        <a href="https://drive.google.com/file/d/1o6JqdjD52RRUf8mHT3k9HBC9ZgUHDDeW/view?usp=sharing"><img src="./assets/images/resume.png" class="card-img-top" style="width: 15rem;"></a>
+        <div class="card-body mx-auto">
+          <p class="card-texte mx-auto display-.8">Hello and welcome to my portfolio! My name is Jade Huynh, and I am currently a student studying Full Stack Development. Originally from small town Minnesota, I finished high school and attended the University of Minnesota for Interior Design. Shortly after classes began, I recognized it was not the right field for me. I then enrolled in Le Cordon Bleu to become a pastry chef, propelling my passion for desserts! Fortunately, I was able to cook in wonderful kitchens with talented chefs all over the Twin Cities for over a decade. I also am an Origami Artist, professionally creating fine art for seven years as well. Now I am interested in redirecting my path to encounter to challenges and gain more knowledge in the tech field. I am eager to learn, and looking forward to what the future brings with the determination I have to succeed in new territory.</p>
         </div>
     </div>
-
-    <div class="col-lg-12 mx-auto">
-        <div class="container-lg gx-5 mx-auto">
-            <div class="card3 bg-dark rounded  m-5 mx-auto" style="width: 65rem;">
-                <div class="m-4 mx-auto" id="card-header1"><h3>Projects</h3></div>
-                <a href="https://jadehuynh.github.io/timed-game/" class="timedGame mx-auto img-fluid"><img src="./assets/images/game.png" id="project"></a>
-                <a href="https://jadehuynh.github.io/calender-planner/" class="project1 mx-auto img-fluid"><img src="./assets/images/project.png" id="project"></a>
-                <a href="https://jadehuynh.github.io/weather-app/" class="weatherApp mx-auto img-fluid" ><img src="./assets/images/weather.png" id="project"></a>
-                <a href="https://midth002.github.io/project1/" class="calender mx-auto img-fluid"><img src="./assets/images/calender.png" id="project"></a>
-                </div>
-            </div>
+    <div class="project-container d-grid gap-auto mx-auto bg-dark d-flex justify-content-between flex-wrap mb-3" style="width: 65rem;">
+        <div class="card1 bg-dark m-2  p-1" style="width: 25rem;">
+            <h2 class="bg-dark display-.75 mx-auto m-1">Quiz Game</h2>
+            <img src="./assets/images/game-1.png" id="projectImage" class="img-fluid mx-auto rounded m-1">
+            <button onclick="gameDeploy();" class="btn btn-primary float-start">
+                Live Website
+            </button>
+            <button onclick="gameGit();" class="btn btn-secondary float-end">
+                Repository
+            </button>
+        </div>
+        <div class="card1 bg-dark m-2  p-1" style="width: 25rem;">
+            <h2 class="bg-dark display-.75 mx-auto m-1">Calender</h2>
+            <img src="./assets/images/calender-1.png" id="projectImage" class="img-fluid mx-auto rounded m-1">
+            <button onclick="calenderDeploy();" class="btn btn-primary float-start">
+                Live Website
+            </button>
+            <button onclick="calenderGit();" class="btn btn-secondary float-end">
+                Repository
+            </button>
+        </div>
+        <div class="card1 bg-dark mx-auto m-2  p-1" style="width: 25rem;">
+            <h2 class="bg-dark display-.75 mx-auto m-1">Weather Dashboard</h2>
+            <img src="./assets/images/weather-1.png" id="projectImage" class="img-fluid mx-auto rounded m-1">
+            <button onclick="weatherDeploy();" class="btn btn-primary float-start">
+                Live Website
+            </button>
+            <button onclick="weatherGit();" class="btn btn-secondary float-end">
+                Repository
+            </button>
+        </div>
+        <div class="card1 bg-dark m-2  p-1" style="width: 25rem;">
+            <h2 class="bg-dark display-.75 mx-auto m-1">Project 1</h2>
+            <img src="./assets/images/project.png" id="projectImage" class="img-fluid mx-auto rounded m-1">
+            <button onclick="projectDeploy();" class="btn btn-primary float-start">
+                Live Website
+            </button>
+            <button onclick="projectGit();" class="btn btn-secondary float-end">
+                Repository
+            </button>
         </div>
     </div>
-       
-    <div class="col-lg-12 mx-auto">
-        <div class="container-lg gx-5 mx-auto">
-            <div class="card4 bg-dark rounded  m-5 mx-auto" style="width: 65rem;">
-                <div class="m-4 mx-auto" id="card-header1"><h3>Contact</h3></div>
-                        <div class="card-body4 mx-auto">
-                            <p id="para"><a href="tel:+6122724829" class="contact img-fluid"><img src="./assets/images/phoneicon.png"></a>&nbsp;&nbsp;&nbsp;
-                                <a href="mailto:jadehuynh08@gmail.com" class="contact img-fluid"><img src="./assets/images/email.png"></a>&nbsp;&nbsp;&nbsp;
-                                <a href="https://github.com/jadehuynh" ><img src="./assets/images/GitHub.png"></a>&nbsp;&nbsp;&nbsp;
-                                <a href="https://www.linkedin.com/in/jade-huynh-93b55423/"><img src="./assets/images/linkedincon.png" class="contactGit img-fluid"></a>
-                                <a href="https://www.origamibyjade.com/" class="contact img-fluid"><img src="./assets/images/artlogo.png"></a>
-                        </div>
-                </div>
-          
+    <div class="container bg-dark mx-auto contact-me m-3" style="width: 65rem;">
+        <a href="tel:+6122724829" class="contact mx-auto"><img src="./assets/images/phoneicon.png" class="rounded img-fluid mx-auto"></a>&nbsp;&nbsp;&nbsp;
+        <a href="mailto:jadehuynh08@gmail.com" class="contact mx-auto"><img src="./assets/images/email.png" class="rounded img-fluid mx-auto"></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://github.com/jadehuynh" class="contact mx-auto"><img src="./assets/images/GitHub.png" class="rounded img-fluid mx-auto"></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/jade-huynh-93b55423/" class="contact mx-auto"><img src="./assets/images/linkedincon.png" class="rounded img-fluid mx-auto"></a>
+        <a href="https://www.origamibyjade.com/" class="contact mx-auto"><img src="./assets/images/artlogo.png" class="rounded mg-fluid mx-auto"></a>
+    </div>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

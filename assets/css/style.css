@@ -1,11 +1,14 @@
 body {
-    background-image: url("/assets/images/lights.jpg");
+    background-image: url("./assets/images/lights.jpg");
     background-size: cover;  
     min-height: 100vh; 
 }
 a {
     font-family: 'Raleway';
     font-weight: bolder;
+}
+.card-body {
+
 }
 .card {
     border:#f08080 dotted 17px;
@@ -28,5 +31,9 @@ a {
 .container {
     border:#f08080 dotted 17px;
     font-weight: bolder;
+    font-family: 'Raleway';
     color: #f08080;
+}
+#photo {
+    border:#f08080 solid 3px;
 }

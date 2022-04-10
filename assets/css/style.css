@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/lights.jpg");
+    background-image: url("/assets/images/lights.jpg");
     background-size: cover;  
     min-height: 100vh; 
 }

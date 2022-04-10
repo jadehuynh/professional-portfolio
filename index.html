@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- "added links to attach CSS and Reset files" -->
+  
     <!--attached bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--added google fants link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Righteous&family=Raleway:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+      <!-- "added links to attach CSS and Reset files" -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <title>Jade's Professional Portfolio</title>
 </head>
 <body>
+    <!-- navagation bar container -->
     <ul class="nav nav-container mx-auto" style="height: 3rem;">
         <li class="nav-item mx-auto mt-2">
           <a class="nav-link active" aria-current="page" href="https://jadehuynh.github.io/professional-portfolio/">Home</a>
@@ -31,103 +33,107 @@
           <a class="nav-link" href="#contact">Contact</a>
         </li>
     </ul>
+    <!-- empty container to provide proper spacing for the welcome div -->
     <div class="emptyContainer display-none" style="height: 12rem;"></div>
+   <!-- welcome container -->
     <div class="mainContainer m-5">
         <div class="card bg-dark mx-auto m-5 text-center rounded p-5" style="width: 65rem; height: 45 rem;">
             <div class="card-body bg-dark mx-auto p-5" id="photo" style="width: 55rem;">
                 <div class="card bg-dark p-5 mx-auto" style="width: 50rem;">
-              <h1 class="card-title display-5 p-5 text-center">WELCOME</h1>
+                    <h1 class="card-title display-5 p-5 text-center">WELCOME</h1>
+                </div>
             </div>
-          </div>
         </div>
     </div>
-    <div class="emptyContainer display-none" style="height: 20rem;"></div>
-    <div class="hero mb-3"></div>
-     <div class="card rounded text-center mx-auto m-5 bg-dark" style="width: 65rem;">
-        <h1 class="bg-dark fs-2 mx-auto m-3 p-3 text-decoration-underline" id="abtMe">ABOUT ME</h1>
-        <div class="pics">
-        <img src="./assets/images/jade.jpg" id="photo" class="card-img-top start-25 rounded m-2 p-2 img-fluid position-relative" style="height: 15rem; width: auto;">
-        <a href="https://drive.google.com/file/d/1o6JqdjD52RRUf8mHT3k9HBC9ZgUHDDeW/view?usp=sharing"><img src="./assets/images/resume.png" id="photo" class="card-img-top start-75 img-fliud m-2 p-2 position-relative" style="height: 15rem; width: auto;"></a>
-    </div>
+     <!-- empty container to provide proper spacing for the about me div -->
+ <div class="emptyContainer display-none" style="height: 20rem;"></div>
+     <!-- about me container with specific sizing and styling through bootstrap -->
+    <div class="card rounded text-center mx-auto m-5 bg-dark" style="width: 65rem;">
+            <h1 class="bg-dark fs-2 mx-auto m-3 p-3 text-decoration-underline" id="abtMe">ABOUT ME</h1>
+                <!-- put images in a div container to get them perfectly centered and next to each other -->
+                <div class="pics">
+                    <img src="./assets/images/jade.jpg" id="photo" class="card-img-top start-25 rounded m-2 p-2 img-fluid position-relative" style="height: 15rem; width: auto;">
+                    <a href="https://drive.google.com/file/d/1o6JqdjD52RRUf8mHT3k9HBC9ZgUHDDeW/view?usp=sharing"><img src="./assets/images/resume.png" id="photo" class="card-img-top start-75 img-fliud m-2 p-2 position-relative" style="height: 15rem; width: auto;"></a>
+                </div>
+        <!-- div to contain text add style -->
         <div class="card-body mx-auto">
           <p class="card-text mx-auto p-3 fs-5 lh-2">Hello and welcome to my portfolio! My name is Jade Huynh, and I am currently a student studying Full Stack Development. Originally from small town Minnesota, I finished high school and attended the University of Minnesota for Interior Design. Shortly after classes began, I recognized it was not the right field for me. I then enrolled in Le Cordon Bleu to become a pastry chef, propelling my passion for desserts! Fortunately, I was able to cook in wonderful kitchens with talented chefs all over the Twin Cities for over a decade. I also am an Origami Artist, professionally creating fine art for seven years as well. Now I am interested in redirecting my path to encounter to challenges and gain more knowledge in the tech field. I am eager to learn, and looking forward to what the future brings with the determination I have to succeed in new territory.</p>
         </div>
-     </div>
-     <div class="emptyContainer display-none" style="height: 10rem;"></div>
-    <div class="project-container bg-dark mx-auto rounded mb-5" style="width: 65rem;">
-        <div class="projectTitle mx-auto m-2 bg-dark">
-        <h1 class="bg-dark fs-2 mx-auto text-center m-3 p-3 text-decoration-underline" id="projects">PROJECTS</h1>
-        </div>
+    </div>
+<!-- empty container to provide proper spacing for the projects div -->
+    <div class="emptyContainer display-none" style="height: 10rem;"></div>
+        <!-- projects container -->
+<div class="project-container bg-dark mx-auto rounded mb-5" style="width: 65rem;">
+            <!-- created separated container for h1 to styler and align properly -->
+            <div class="projectTitle mx-auto m-2 bg-dark">
+                 <h1 class="bg-dark fs-2 mx-auto text-center m-3 p-3 text-decoration-underline" id="projects">PROJECTS</h1>
+            </div>
+        <!-- create div container to help align project cards more neartly -->
         <div class="projectContent row d-inline-flex mx-auto bg-dark mb-3">
-    <div class="card1 bg-dark m-2  p-1" style="width: 20rem;">
-            <h2 class="bg-dark display-.75 text-center m-2">Quiz Game</h2>
-            <img src="./assets/images/game.png" id="projectImage" class="img-fluid mx-auto rounded m-1">
-            <button onclick="gameDeploy();" class="btn btn-primary float-start">
-                Live Website
-            </button>
-            <button onclick="gameGit();" class="btn btn-secondary float-end">
-                Repository
-            </button>
-        </div>
+            <!-- timed game card holding elements and styling attributes through bootstrap -->
+            <div class="card1 bg-dark m-2  p-1" style="width: 20rem;">
+                <h2 class="bg-dark display-.75 text-center m-2">Quiz Game</h2>
+                    <img src="./assets/images/game.png" id="projectImage" class="img-fluid mx-auto rounded m-1">
+                        <!-- buttons calling functions in js to bring user to url's -->
+                        <button onclick="gameDeploy();" class="btn btn-primary float-start">Live Website</button>
+                        <button onclick="gameGit();" class="btn btn-secondary float-end">Repository</button>
+            </div>
+        <!-- digital calender card holding elements and styling attributes through bootstrap -->
         <div class="card1 rounded bg-dark m-2 mx-auto p-1" style="width: 20rem;">
             <h2 class="bg-dark display-.75 text-center m-2">Calender</h2>
-            <img src="./assets/images/calender.png" id="projectImage" class="img-fluid mx-auto rounded m-1">
-            <button onclick="calenderDeploy();" class="btn btn-primary float-start">
-                Live Website
-            </button>
-            <button onclick="calenderGit();" class="btn btn-secondary float-end">
-                Repository
-            </button>
-     </div>
-
-    <div class="secondContainer row d-inline-flex mx-auto m-2 bg-dark">
-        <div class="card1 rounded bg-dark mx-auto m-2  p-1" style="width: 20rem;">
-            <h2 class="bg-dark display-.75 text-center m-2">Weather Dashboard</h2>
-            <img src="./assets/images/weather.png" id="projectImage" class="img-fluid mx-auto rounded m-1">
-            <button onclick="weatherDeploy();" class="btn btn-primary float-start">
-                Live Website
-            </button>
-            <button onclick="weatherGit();" class="btn btn-secondary float-end">
-                Repository
-            </button>
+                <img src="./assets/images/calender.png" id="projectImage" class="img-fluid mx-auto rounded m-1">
+                     <!-- buttons calling functions in js to bring user to url's -->
+                    <button onclick="calenderDeploy();" class="btn btn-primary float-start">Live Website</button>
+                    <button onclick="calenderGit();" class="btn btn-secondary float-end">Repository</button>
         </div>
-        <div class="card1 rounded bg-dark m-2  p-1" style="width: 20rem;">
-            <h2 class="bg-dark display-.75 text-center m-2">Project 1</h2>
-            <img src="./assets/images/project.png" id="projectImage" class="img-fluid mx-auto rounded m-1">
-            <button onclick="projectDeploy();" class="btn btn-primary mx-auto float-start">
-                Live Website
-            </button>
-            <button onclick="projectGit();" class="btn btn-secondary mx-auto float-end">
-                Repository
-            </button>
+         <!-- created second div container to help align project cards more neartly -->
+        <div class="secondContainer row d-inline-flex mx-auto m-2 bg-dark">
+             <!-- weather dashboard card holding elements and styling attributes through bootstrap -->
+            <div class="card1 rounded bg-dark mx-auto m-2  p-1" style="width: 20rem;">
+                <h2 class="bg-dark display-.75 text-center m-2">Weather Dashboard</h2>
+                    <img src="./assets/images/weather.png" id="projectImage" class="img-fluid mx-auto rounded m-1">
+                         <!-- buttons calling functions in js to bring user to url's -->
+                        <button onclick="weatherDeploy();" class="btn btn-primary float-start">Live Website</button>
+                        <button onclick="weatherGit();" class="btn btn-secondary float-end">Repository</button>
+            </div>
+                <!-- project 1 card holding elements and styling attributes through bootstrap -->
+                <div class="card1 rounded bg-dark m-2  p-1" style="width: 20rem;">
+                    <h2 class="bg-dark display-.75 text-center m-2">Project 1</h2>
+                        <img src="./assets/images/project.png" id="projectImage" class="img-fluid mx-auto rounded m-1">
+                             <!-- buttons calling functions in js to bring user to url's -->
+                            <button onclick="projectDeploy();" class="btn btn-primary mx-auto float-start">Live Website</button>
+                            <button onclick="projectGit();" class="btn btn-secondary mx-auto float-end">Repository</button>
+                </div>
+            </div>
         </div>
-    </div>
 </div>
-</div>
+<!-- empty container to provide proper spacing for the contact div -->
 <div class="emptyContainer display-none" style="height: 10rem;"></div>
+    <!-- main container holding elements for styling and aligning contact me section-->
     <div class="container rounded bg-dark mx-auto contact-me m-5" style="width: 65rem;">
         <h1 class="bg-dark fs-2 mx-auto text-center m-3 p-3 text-decoration-underline" id="contact">CONTACT</h1>
-       <div class="icons d-flex justify-content-center pb-3">
-        <div class="phone p-1 mx-auto" id="borderIcon">
-            <h1 class="text-center">MOBILE</h1>
-        <a href="tel:+6122724829" class="contact mx-auto m-1"><img src="./assets/images/phoneicon.png" class="rounded img-fluid mx-auto m-1"></a>&nbsp;&nbsp;&nbsp;
-        </div>
-        <div class="email p-1 mx-auto" id="borderIcon">
-            <h1 class="text-center">EMAIL</h1>
-            <a href="mailto:jadehuynh08@gmail.com" class="contact mx-auto m-1"><img src="./assets/images/email.png" class="rounded img-fluid mx-auto m-1"></a>&nbsp;&nbsp;&nbsp;
-        </div>
-        <div class="github p-1 mx-auto" id="borderIcon">
-            <h1 class="text-center">GITHUB</h1>
-            <a href="https://github.com/jadehuynh" class="contact mx-auto m-1"><img src="./assets/images/GitHub.png" class="rounded img-fluid mx-auto m-1"></a>&nbsp;&nbsp;&nbsp;
-        </div>
-        <div class="linked p-1 mx-auto" id="borderIcon">
-            <h1 class="text-center">LINKEDIN</h1>
-            <a href="https://www.linkedin.com/in/jade-huynh-93b55423/" class="contact mx-auto m-1"><img src="./assets/images/linkedincon.png" class="rounded img-fluid mx-auto m-1"></a>
-         </div>  
-        <div class="art p-1 mx-auto" id="borderIcon">
-            <h1 class="text-center">ARTWORK</h1>
-            <a href="https://www.origamibyjade.com/" class="contact mx-auto m-1"><img src="./assets/images/artlogo.png" class="rounded mg-fluid mx-auto m-1"></a>
-         </div>
+             <!-- created divs for each form to contact me in order to nicely align them and label them -->
+            <div class="icons d-flex justify-content-center pb-3">
+                 <div class="phone p-1 mx-auto" id="borderIcon">
+                    <h1 class="text-center">MOBILE</h1>
+                    <a href="tel:+6122724829" class="contact mx-auto m-1"><img src="./assets/images/phoneicon.png" class="rounded img-fluid mx-auto m-1"></a>&nbsp;&nbsp;&nbsp;
+                </div>
+            <div class="email p-1 mx-auto" id="borderIcon">
+                <h1 class="text-center">EMAIL</h1>
+                <a href="mailto:jadehuynh08@gmail.com" class="contact mx-auto m-1"><img src="./assets/images/email.png" class="rounded img-fluid mx-auto m-1"></a>&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="github p-1 mx-auto" id="borderIcon">
+                <h1 class="text-center">GITHUB</h1>
+                <a href="https://github.com/jadehuynh" class="contact mx-auto m-1"><img src="./assets/images/GitHub.png" class="rounded img-fluid mx-auto m-1"></a>&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="linked p-1 mx-auto" id="borderIcon">
+                <h1 class="text-center">LINKEDIN</h1>
+                <a href="https://www.linkedin.com/in/jade-huynh-93b55423/" class="contact mx-auto m-1"><img src="./assets/images/linkedincon.png" class="rounded img-fluid mx-auto m-1"></a>
+            </div>  
+            <div class="art p-1 mx-auto" id="borderIcon">
+                <h1 class="text-center">ARTWORK</h1>
+                <a href="https://www.origamibyjade.com/" class="contact mx-auto m-1"><img src="./assets/images/artlogo.png" class="rounded mg-fluid mx-auto m-1"></a>
+            </div>
 </div>
     <script src="./assets/js/script.js"></script>
 </body>

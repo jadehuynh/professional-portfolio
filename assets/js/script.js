@@ -1,4 +1,5 @@
 
+    //functions for all buttons in html
     function gameGit() {
         window.location='https://github.com/jadehuynh/timed-game';
     }

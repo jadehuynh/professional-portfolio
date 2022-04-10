@@ -10,6 +10,8 @@
 
 ### For the "Projects" section, I have four images with button to the live deployment of the web applications, as well as buttons to the repositories I presently have pinned on my GitHub profile. All repositories that are pinned have at least 20 commits and the MIT License files created and merged as well. 
 
+### I then created separate functions for the onClick event of each button to bring the user to the links of whatever past projet they were viewing.
+
 ### At the bottom of my application, I have icons with links to various way of contacting me. I also have an icon for users to visit my other website and view perivous creative work I have made in the past.
 
 ![](https://img.shields.io/badge/License-MIT-yellowgreen)

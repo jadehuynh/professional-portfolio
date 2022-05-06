@@ -16,7 +16,12 @@
 
 ### At the bottom of my application, I have icons with links to various way of contacting me. I also have an icon for users to visit my other website and view perivous creative work I have made in the past.
 
-![](https://img.shields.io/badge/License-MIT-yellowgreen)
+----
+
+## Languages Used:
+* HTML
+* CSS
+* JAVASCRIPT
 
 [Click here to view the live web application](https://jadehuynh.github.io/professional-portfolio/)
 

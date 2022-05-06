@@ -1,106 +1,29 @@
-# 02 Advanced CSS: Portfolio
+# Professional Portfolio 
+----
+![](https://camo.githubusercontent.com/c652dbcdb4bc224b3e4d7bd673bdbf698c6681a7503057b555e88f47eb523af5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f77677265656e)
 
-## Your Task
+## Welcome to my updated Professional Portfolio!
 
-Welcome to this week's homework! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
+### On this updated version of my portfolio, I decided to change the color theme and layout struture and design! Now that I have a better understanding how to style applications. 
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+### Once users view my live application for my portfolio, they will see the navigation bar evenly centered, where clicking on certain links will direct them to different sections of the page. Not to mention, who doesn't like to have a warm "Welcome" either!
 
-With these points in mind, in this homework you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+### In my "About Me" section, I have a brief biography, as well as a picture of myself and an icon for users to view and download my resume if they would like. 
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+### For the "Projects" section, I have four images with button to the live deployment of the web applications, as well as buttons to the repositories I presently have pinned on my GitHub profile. All repositories that are pinned have at least 20 commits and the MIT License files created and merged as well. 
 
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first homework, we follow the AS AN / I WANT / SO THAT format. 
+### I then created separate functions for the onClick event of each button to bring the user to the links of whatever past projet they were viewing.
 
+### At the bottom of my application, I have icons with links to various way of contacting me. I also have an icon for users to visit my other website and view perivous creative work I have made in the past.
 
-## User Story
+![](https://img.shields.io/badge/License-MIT-yellowgreen)
 
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+[Click here to view the live web application](https://jadehuynh.github.io/professional-portfolio/)
 
+![](./assets/images/welcome.png)
 
-## Acceptance Criteria
+![](./assets/images/aboutme.png)
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+![](./assets/images/prjsection.png)
 
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
-
-
-## Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
-
-
-## Grading Requirements
-
-> **Note**: If a homework assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+![](./assets/images/contct.png)

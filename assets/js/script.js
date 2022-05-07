@@ -18,9 +18,21 @@
     function calenderDeploy() {
         window.location='https://jadehuynh.github.io/calender-planner/';
     }
-    function projectGit() {
-        window.location='https://github.com/jadehuynh/project1-1';
+    function projectTwoGit() {
+        window.location='hhttps://github.com/Rhoward1/workout_app-pj2';
     }
-    function projectDeploy() {
-        window.location='https://midth002.github.io/project1/';
+    function projectTwoDeploy() {
+        window.location='https://immense-hamlet-02624.herokuapp.com/';
+    }
+    function empBizGit() {
+        window.location='https://github.com/jadehuynh/employee-business-tracker';
+    }
+    function empBizDeploy() {
+        window.location='https://www.youtube.com/watch?v=-6dNSefL1kc&ab_channel=JadeHuynh';
+    }
+    function noteGit() {
+        window.location='https://github.com/jadehuynh/note-taker';
+    }
+    function noteDeploy() {
+        window.location='https://boiling-lowlands-79306.herokuapp.com/';
     }
